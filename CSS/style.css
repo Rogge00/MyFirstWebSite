@@ -1,0 +1,123 @@
+
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+
+
+
+
+
+
+
+#miodiv{
+	
+	width: 1630px;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+	text-align: justify;
+}
+
+
+
+a:link {
+    color: #FFCC00;
+	text-decoration: none;
+}
+
+ 
+a:hover {
+    color: yellow;
+	text-decoration: none;
+	background-color: midgray;
+	
+}
+
+ 
+a:active {
+    color: red;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #b35900;
+	text-decoration: none;
+}
+
+body {
+    
+	background-image: url("porco.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+	cursor: url("Cursore/Wumpa.png"), default;
+	
+   
+}
+
+a{
+cursor: url("Cursore/Wumpa.png"), default;
+}
+
+
+
+#P{
+	
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: #282b28;
+	border-style: groove;
+	
+    
+}
+
+background-attachment: fixed;
+
+.CUBI{
+/*larghezza dei div skill, in pagina ne abbiamo 3 quindi 100 / 3
+lasciando un po' di spazio per i margini
+*/
+width: 28%;
+display: inline-block; /*questi div saranno posti uno a fianco all'altro*/
+margin: 2%; /*un po di spazio tra i div*/
+color: #2d3e50;
+}
